@@ -59,6 +59,9 @@ Installationsbefehl für das jeweilige System an.
 
 ---
 
+<img width="1742" height="1034" alt="image" src="https://github.com/user-attachments/assets/1344fb2a-4452-413e-afc2-8acbdc1c9ec2" />
+
+
 ## Was BlokBa kann
 
 - **11 Blockkategorien** — Start, Variablen, Ein-/Ausgabe, Mathematik,
