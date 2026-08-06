@@ -149,7 +149,7 @@ Ein Screenshot hilft mehr als eine Beschreibung.
 
 BlokBa ist kostenlos und bleibt es. Wer die weitere Arbeit unterstützen möchte:
 
-<!-- ANGABEN: PayPal-Adresse und/oder Bankverbindung -->
+Paypal: nodi_bih@yahoo.de
 
 ---
 
