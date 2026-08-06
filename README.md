@@ -135,7 +135,7 @@ Screenshot pomaže više od opisa.
 
 BlokBa je i ostaje besplatna. Ako želiš podržati dalji rad:
 
-<!-- PODACI: PayPal adresa i/ili broj računa -->
+Paypal: nodi_bih@yahoo.de
 
 ---
 
