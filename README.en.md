@@ -9,7 +9,7 @@ fully offline.
 Built for lower secondary school (ages 11–15) as a bridge to writing Python by
 hand.
 
-> [Bosanski](README.md) · **English**
+> [Bosanski](README.md) · **English** · [Deutsch](README.de.md)
 
 <!-- IMAGE: main screen screenshot goes here -->
 
@@ -19,10 +19,10 @@ hand.
 
 Latest version: **[Releases](../../releases/latest)**
 
-| System | File | Note |
+| System | Download | Note |
 |---|---|---|
-| Windows 10/11 | `BlokBa-1.0.0-portable.exe` | No installation — just run it |
-| Linux (64-bit) | `BlokBa-1.0.0.AppImage` | Single file, no installation |
+| Windows 10/11 | **[BlokBa.1.0.0.-portable.exe](https://github.com/DinoIsanovic/BlokBa-app/releases/download/BlokBa/BlokBa.1.0.0.-portable.exe)** | No installation — just run it |
+| Linux (64-bit) | **[BlokBa-1.0.0.AppImage](https://github.com/DinoIsanovic/BlokBa-app/releases/download/BlokBa/BlokBa-1.0.0.AppImage)** | Single file, no installation |
 
 ---
 
@@ -137,7 +137,7 @@ A screenshot helps more than a description.
 
 BlokBa is free and will stay free. If you'd like to support further work:
 
-Paypal: nodi_bih@yahoo.de
+<!-- DETAILS: PayPal address and/or bank account -->
 
 ---
 

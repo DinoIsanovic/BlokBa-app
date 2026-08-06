@@ -8,7 +8,7 @@ izvršava. Kod se vidi pored blokova, red po red. Radi potpuno offline.
 Namijenjeno osnovnoj školi, VI–IX razred — kao most prema tekstualnom
 programiranju u Pythonu.
 
-> **Bosanski** · [English](README.en.md)
+> **Bosanski** · [English](README.en.md) · [Deutsch](README.de.md)
 
 <!-- SLIKA: ovdje ubaci screenshot glavnog ekrana -->
 
@@ -18,10 +18,10 @@ programiranju u Pythonu.
 
 Najnovija verzija: **[Izdanja](../../releases/latest)**
 
-| Sistem | Fajl | Napomena |
+| Sistem | Preuzimanje | Napomena |
 |---|---|---|
-| Windows 10/11 | `BlokBa-1.0.0-portable.exe` | Ne instalira se — pokreni i radi |
-| Linux (64-bit) | `BlokBa-1.0.0.AppImage` | Jedan fajl, bez instalacije |
+| Windows 10/11 | **[BlokBa.1.0.0.-portable.exe](https://github.com/DinoIsanovic/BlokBa-app/releases/download/BlokBa/BlokBa.1.0.0.-portable.exe)** | Ne instalira se — pokreni i radi |
+| Linux (64-bit) | **[BlokBa-1.0.0.AppImage](https://github.com/DinoIsanovic/BlokBa-app/releases/download/BlokBa/BlokBa-1.0.0.AppImage)** | Jedan fajl, bez instalacije |
 
 ---
 
@@ -135,7 +135,7 @@ Screenshot pomaže više od opisa.
 
 BlokBa je i ostaje besplatna. Ako želiš podržati dalji rad:
 
-Paypal: nodi_bih@yahoo.de
+<!-- PODACI: PayPal adresa i/ili broj računa -->
 
 ---
 
