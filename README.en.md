@@ -141,8 +141,7 @@ A screenshot helps more than a description.
 
 BlokBa is free and will stay free. If you'd like to support further work:
 
-<!-- DETAILS: PayPal address and/or bank account -->
-
+Paypal: nodi_bih@yahoo.de
 ---
 
 ## Terms of use
