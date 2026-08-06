@@ -58,7 +58,8 @@ If not, BlokBa will tell you and print the exact install command for your
 system.
 
 ---
-<img width="1742" height="1034" alt="image" src="https://github.com/user-attachments/assets/4c5df001-25cb-4ba5-a643-a96acb381c48" />
+<img width="1742" height="1034" alt="image" src="https://github.com/user-attachments/assets/ebf92010-1a19-4c1b-b5a5-a50d988c060f" />
+
 
 
 
