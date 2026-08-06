@@ -56,6 +56,8 @@ Ili desni klik → *Properties* → *Permissions* → *Is executable*.
 ima. Ako ga nema, BlokBa će ti javiti i ispisati tačnu komandu za instalaciju.
 
 ---
+<img width="1742" height="1034" alt="image" src="https://github.com/user-attachments/assets/fd814f62-a2a9-4c7e-b93d-f58e91acab59" />
+
 
 ## Šta BlokBa radi
 
