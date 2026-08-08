@@ -20,9 +20,8 @@ Najnovija verzija: **[Izdanja](../../releases/latest)**
 
 | Sistem | Preuzimanje | Napomena |
 |---|---|---|
-| Windows 10/11 | **[BlokBa.1.0.1.-portable.exe](https://github.com/DinoIsanovic/BlokBa-app/releases/download/BlokBa1001/BlokBa-1.0.1-portable.exe
-)** | Ne instalira se — pokreni i radi |
-| Linux (64-bit) | **[BlokBa-1.0.1.AppImage](https://github.com/DinoIsanovic/BlokBa-app/releases/download/BlokBa/BlokBa-1.0.0.AppImage)** | Jedan fajl, bez instalacije |
+| Windows 10/11 | **[BlokBa.1.0.1.-portable.exe](https://github.com/DinoIsanovic/BlokBa-app/releases/download/BlokBa1001/BlokBa-1.0.1-portable.exe)** | Ne instalira se — pokreni i radi |
+| Linux (64-bit) | **[BlokBa-1.0.1.AppImage](https://github.com/DinoIsanovic/BlokBa-app/releases/download/BlokBa1001/BlokBa-1.0.1.AppImage)** | Jedan fajl, bez instalacije |
 
 ---
 
