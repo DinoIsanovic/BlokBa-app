@@ -21,9 +21,9 @@ Latest version: **[Releases](../../releases/latest)**
 
 | System | Download | Note |
 |---|---|---|
-| Windows 10/11 | **[BlokBa.1.0.1.-portable.exe](https://github.com/DinoIsanovic/BlokBa-app/releases/download/BlokBa1001/BlokBa-1.0.1-portable.exe)** | No installation — just run it |
+| Windows 10/11 | **[BlokBa-1.0.1-Setup.exe](https://github.com/DinoIsanovic/BlokBa-app/releases/download/BlokBa1001/BlokBa-1.0.1-Setup.exe)** | Recommended — install once, starts instantly |
+| Windows 10/11 | [BlokBa-1.0.1-portable.exe](https://github.com/DinoIsanovic/BlokBa-app/releases/download/BlokBa1001/BlokBa-1.0.1-portable.exe) | No installation — for a quick try, slower to start |
 | Linux (64-bit) | **[BlokBa-1.0.1.AppImage](https://github.com/DinoIsanovic/BlokBa-app/releases/download/BlokBa1001/BlokBa-1.0.1.AppImage)** | Single file, no installation |
-
 ---
 
 ## First run
