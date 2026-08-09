@@ -6,13 +6,36 @@ Schülerinnen und Schüler setzen Blöcke zusammen und sehen, wie diese **live i
 echten Python-Code übersetzt** werden, der sofort ausgeführt wird. Der Code
 steht Zeile für Zeile neben den Blöcken. Funktioniert vollständig offline.
 
-**Warum hybrid:** Es werden nicht nur Blöcke zusammengesetzt. Fortgeschrittene
-tippen die Parameter der Befehle direkt in den Block — über die Tastatur, genau
-wie in Python selbst. Der Übergang vom Zusammensetzen zum Tippen verläuft so
-schrittweise, innerhalb derselben Anwendung, statt als Sprung am Schuljahresende.
+## Was „hybrid" bedeutet
 
-Entwickelt für die Sekundarstufe I (11–15 Jahre) als Brücke zum eigenhändigen
-Schreiben von Python.
+In den meisten blockbasierten Werkzeugen ist der Block eine Metapher. Ein
+Befehl wie `sage [Hallo]` hat nichts damit zu tun, wie das in einer echten
+Programmiersprache geschrieben wird — das Kind lernt, Blöcke zu stecken,
+und fängt danach von vorn an.
+
+In BlokBa zeigt der Block die **tatsächliche Syntax**:
+
+    ⌨ EINGABE GANZE ZAHL  [x]  = int( input( "Zahl eingeben: " ))
+
+daraus entsteht:
+
+```python
+x = int(input("Zahl eingeben: "))
+```
+
+Klammern, Anführungszeichen und `int()` sind keine Verzierung — das ist der
+Python-Code, der ausgeführt wird.
+
+Drei Stufen, innerhalb derselben Anwendung:
+
+1. **Stecken** — Jüngere ziehen Blöcke und sehen den Code daneben
+2. **Tippen** — Ausdrücke werden direkt in ein Feld des Blocks getippt, z. B.
+   `x + a`, statt eigene Blöcke fürs Addieren zusammenzusetzen
+3. **Exportieren** — `Datei → Als .py exportieren` liefert eine Datei, die
+   sich in PyCharm öffnet und sich identisch verhält
+
+Der Wechsel zum textbasierten Programmieren ist damit kein Sprung, sondern
+ein Schritt: Der Code wurde ein Jahr lang mitgelesen, Zeile für Zeile.
 
 > [Bosanski](README.md) · [English](README.en.md) · **Deutsch**
 
