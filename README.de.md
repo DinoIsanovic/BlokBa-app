@@ -6,6 +6,11 @@ Schülerinnen und Schüler setzen Blöcke zusammen und sehen, wie diese **live i
 echten Python-Code übersetzt** werden, der sofort ausgeführt wird. Der Code
 steht Zeile für Zeile neben den Blöcken. Funktioniert vollständig offline.
 
+**Warum hybrid:** Es werden nicht nur Blöcke zusammengesetzt. Fortgeschrittene
+tippen die Parameter der Befehle direkt in den Block — über die Tastatur, genau
+wie in Python selbst. Der Übergang vom Zusammensetzen zum Tippen verläuft so
+schrittweise, innerhalb derselben Anwendung, statt als Sprung am Schuljahresende.
+
 Entwickelt für die Sekundarstufe I (11–15 Jahre) als Brücke zum eigenhändigen
 Schreiben von Python.
 
