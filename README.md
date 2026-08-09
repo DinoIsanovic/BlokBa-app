@@ -5,11 +5,34 @@
 Đaci slažu blokove, a oni se **uživo prevode u pravi Python kod** koji se odmah
 izvršava. Kod se vidi pored blokova, red po red. Radi potpuno offline.
 
-**Zašto hibridno:** ne slažu se samo blokovi. Napredniji đaci parametre naredbi
-upisuju direktno u blok, preko tastature — baš kao u pravom Pythonu. Tako
-prelazak sa slaganja na kucanje ide postupno, unutar iste aplikacije.
-Namijenjeno osnovnoj školi, VI–IX razred — kao most prema tekstualnom
-programiranju u Pythonu.
+## Šta znači „hibridno"
+
+U većini blokovskih alata blok je metafora. Naredba tipa `reci [Zdravo]`
+nema nikakve veze sa tim kako se to piše u pravom programskom jeziku —
+dijete nauči slagati blokove, a poslije kreće ispočetka.
+
+U BlokBa blok pokazuje **stvarnu sintaksu**:
+
+    ⌨ UNOS CIJELOG BROJA  [x]  = int( input( "unesi broj: " ))
+
+iz čega nastaje:
+
+```python
+x = int(input("unesi broj: "))
+```
+
+Zagrade, navodnici i `int()` nisu ukras — to je Python koji se izvršava.
+
+Tri stepenika, unutar iste aplikacije:
+
+1. **Slaganje** — mlađi đaci samo prevlače blokove i gledaju kod pored njih
+2. **Upisivanje** — u polje bloka se kuca izraz preko tastature, npr. `x + a`
+   umjesto slaganja posebnih blokova za sabiranje
+3. **Izvoz** — `Datoteka → Izvezi kao .py` daje fajl koji se otvori u
+   PyCharmu i radi identično
+
+Zato prelazak na tekstualno programiranje u VII ili VIII razredu nije skok
+nego korak: dijete je taj kod već čitalo cijelu godinu, red po red.
 
 > **Bosanski** · [English](README.en.md) · [Deutsch](README.de.md)
 
