@@ -6,15 +6,35 @@ Students snap blocks together and see them **translated live into real Python**
 that runs immediately. The code sits next to the blocks, line by line. Works
 fully offline.
 
-**What makes it hybrid:** it isn't only about snapping blocks. More advanced
-students type command parameters straight into the block, on the keyboard —
-exactly as they would in Python itself. The move from snapping to typing happens
-gradually, inside the same application, instead of as a leap at the end of the
-year.
+## What "hybrid" means
 
-Built for lower secondary school (ages 11–15) as a bridge to writing Python by
-hand.
+In most block-based tools the block is a metaphor. A command like
+`say [Hello]` has nothing to do with how that is written in a real
+programming language — the child learns to snap blocks, then starts over.
 
+In BlokBa the block shows the **actual syntax**:
+
+    ⌨ WHOLE NUMBER INPUT  [x]  = int( input( "enter a number: " ))
+
+which produces:
+
+```python
+x = int(input("enter a number: "))
+```
+
+The brackets, quotes and `int()` aren't decoration — that is the Python
+that runs.
+
+Three steps, inside one application:
+
+1. **Snapping** — younger students drag blocks and watch the code beside them
+2. **Typing** — expressions are typed straight into a block field, e.g. `x + a`
+   instead of assembling separate blocks for addition
+3. **Exporting** — `File → Export as .py` produces a file that opens in
+   PyCharm and behaves identically
+
+So moving to text-based programming isn't a leap but a step: the student has
+been reading that code all year, line by line.
 > [Bosanski](README.md) · **English** · [Deutsch](README.de.md)
 
 <!-- IMAGE: main screen screenshot goes here -->
