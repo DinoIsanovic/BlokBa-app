@@ -5,6 +5,11 @@
 Đaci slažu blokove, a oni se **uživo prevode u pravi Python kod** koji se odmah
 izvršava. Kod se vidi pored blokova, red po red. Radi potpuno offline.
 
+**Zašto hibridno:** ne slažu se samo blokovi. Napredniji đaci parametre naredbi
+upisuju direktno u blok, preko tastature — baš kao u pravom Pythonu. Tako
+prelazak sa slaganja na kucanje ide postupno, unutar iste aplikacije, umjesto
+da bude skok na kraju školske godine.
+
 Namijenjeno osnovnoj školi, VI–IX razred — kao most prema tekstualnom
 programiranju u Pythonu.
 
