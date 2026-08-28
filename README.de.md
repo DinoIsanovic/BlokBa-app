@@ -96,7 +96,8 @@ Installationsbefehl für das jeweilige System an.
 
 ---
 
-<img width="1742" height="1034" alt="image" src="https://github.com/user-attachments/assets/1344fb2a-4452-413e-afc2-8acbdc1c9ec2" />
+<img width="1422" height="888" alt="image" src="https://github.com/user-attachments/assets/585802b8-e29b-4099-b725-3d30a11114c3" />
+
 
 
 ## Was BlokBa kann
