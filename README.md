@@ -91,7 +91,8 @@ sudo dpkg -i BlokBa_1.1.0_amd64.deb
 ima. Ako ga nema, BlokBa će ti javiti i ispisati tačnu komandu za instalaciju.
 
 ---
-<img width="1742" height="1034" alt="image" src="https://github.com/user-attachments/assets/fd814f62-a2a9-4c7e-b93d-f58e91acab59" />
+<img width="1423" height="892" alt="image" src="https://github.com/user-attachments/assets/18916c19-89f8-4980-aeb8-12acf0f05402" />
+
 
 
 ## Šta BlokBa radi
