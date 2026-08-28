@@ -96,7 +96,7 @@ Installationsbefehl für das jeweilige System an.
 
 ---
 
-<img width="1422" height="888" alt="image" src="https://github.com/user-attachments/assets/585802b8-e29b-4099-b725-3d30a11114c3" />
+<img width="1424" height="892" alt="image" src="https://github.com/user-attachments/assets/a32a254e-8124-4235-ad67-27eb6dd71a13" />
 
 
 
