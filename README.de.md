@@ -49,9 +49,11 @@ Neueste Version: **[Releases](../../releases/latest)**
 
 | System | Download | Hinweis |
 |---|---|---|
-| Windows 10/11 | **[BlokBa-1.0.1-Setup.exe](https://github.com/DinoIsanovic/BlokBa-app/releases/download/BlokBa1001/BlokBa-1.0.1-Setup.exe)** | Empfohlen — einmal installieren, startet sofort |
-| Windows 10/11 | [BlokBa-1.0.1-portable.exe](https://github.com/DinoIsanovic/BlokBa-app/releases/download/BlokBa1001/BlokBa-1.0.1-portable.exe) | Ohne Installation — zum Ausprobieren, startet langsamer |
-| Linux (64-Bit) | **[BlokBa-1.0.1.AppImage](https://github.com/DinoIsanovic/BlokBa-app/releases/download/BlokBa1001/BlokBa-1.0.1.AppImage)** | Eine Datei, keine Installation Linux version |
+| Windows 10/11 | **[BlokBa-1.1.0-Setup.exe](https://github.com/DinoIsanovic/BlokBa-app/releases/latest/download/BlokBa-1.1.0-Setup.exe)** | Empfohlen — einmal installieren, startet sofort |
+| Windows 10/11 | [BlokBa-1.1.0-portable.exe](https://github.com/DinoIsanovic/BlokBa-app/releases/latest/download/BlokBa-1.1.0-portable.exe) | Ohne Installation — zum Ausprobieren, startet langsamer |
+| Linux (64-Bit) | **[BlokBa-1.1.0.AppImage](https://github.com/DinoIsanovic/BlokBa-app/releases/latest/download/BlokBa-1.1.0.AppImage)** | Eine Datei, keine Installation |
+| Linux (Debian/Ubuntu) | [BlokBa_1.1.0_amd64.deb](https://github.com/DinoIsanovic/BlokBa-app/releases/latest/download/BlokBa_1.1.0_amd64.deb) | Standard-.deb-Paket |
+
 ---
 
 ## Erster Start
@@ -72,14 +74,21 @@ Python wird **nicht benötigt** — es ist im Programm enthalten.
 
 ### Linux
 
-Die heruntergeladene Datei hat keine Ausführungsrechte. Im Terminal:
+Die heruntergeladene AppImage-Datei hat keine Ausführungsrechte. Im Terminal:
 
 ```bash
-chmod +x BlokBa-1.0.0.AppImage
-./BlokBa-1.0.0.AppImage
+chmod +x BlokBa-1.1.0.AppImage
+./BlokBa-1.1.0.AppImage
 ```
 
 Oder Rechtsklick → *Eigenschaften* → *Zugriffsrechte* → *Ausführbar*.
+
+Für Debian/Ubuntu und verwandte Distributionen kann statt des AppImage auch
+das `.deb`-Paket installiert werden:
+
+```bash
+sudo dpkg -i BlokBa_1.1.0_amd64.deb
+```
 
 **Python 3.10 oder neuer muss installiert sein.** Die meisten Distributionen
 bringen es bereits mit. Falls nicht, meldet BlokBa das und zeigt den passenden
@@ -92,6 +101,9 @@ Installationsbefehl für das jeweilige System an.
 
 ## Was BlokBa kann
 
+- **Anwendungsleitfaden (BoT)** — 10 Lektionen, Schritt für Schritt, von der
+  ersten Bildschirmausgabe bis zu fortgeschritteneren Befehlen, begleitet
+  von einem Roboter, der den Fortschritt verfolgt
 - **11 Blockkategorien** — Start, Variablen, Ein-/Ausgabe, Mathematik,
   Bedingungen, Schleifen, Text, Listen, Zeichnen, Klang, Funktionen
 - **Live-Python-Code** neben den Blöcken, damit sichtbar wird, was jeder Block
