@@ -49,10 +49,10 @@ Neueste Version: **[Releases](../../releases/latest)**
 
 | System | Download | Hinweis |
 |---|---|---|
-| Windows 10/11 | **[BlokBa-1.1.0-Setup.exe](https://github.com/DinoIsanovic/BlokBa-app/releases/latest/download/BlokBa-1.1.0-Setup.exe)** | Empfohlen — einmal installieren, startet sofort |
-| Windows 10/11 | [BlokBa-1.1.0-portable.exe](https://github.com/DinoIsanovic/BlokBa-app/releases/latest/download/BlokBa-1.1.0-portable.exe) | Ohne Installation — zum Ausprobieren, startet langsamer |
-| Linux (64-Bit) | **[BlokBa-1.1.0.AppImage](https://github.com/DinoIsanovic/BlokBa-app/releases/latest/download/BlokBa-1.1.0.AppImage)** | Eine Datei, keine Installation |
-| Linux (Debian/Ubuntu) | [BlokBa_1.1.0_amd64.deb](https://github.com/DinoIsanovic/BlokBa-app/releases/latest/download/BlokBa_1.1.0_amd64.deb) | Standard-.deb-Paket |
+| Windows 10/11 | **[BlokBa-1.1.1-Setup.exe](https://github.com/DinoIsanovic/BlokBa-app/releases/latest/download/BlokBa-1.1.1-Setup.exe)** | Empfohlen — einmal installieren, startet sofort |
+| Windows 10/11 | [BlokBa-1.1.1-portable.exe](https://github.com/DinoIsanovic/BlokBa-app/releases/latest/download/BlokBa-1.1.1-portable.exe) | Ohne Installation — zum Ausprobieren, startet langsamer |
+| Linux (64-Bit) | **[BlokBa-1.1.1.AppImage](https://github.com/DinoIsanovic/BlokBa-app/releases/latest/download/BlokBa-1.1.1.AppImage)** | Eine Datei, keine Installation |
+| Linux (Debian/Ubuntu) | [BlokBa_1.1.1_amd64.deb](https://github.com/DinoIsanovic/BlokBa-app/releases/latest/download/BlokBa_1.1.1_amd64.deb) | Standard-.deb-Paket |
 
 ---
 
