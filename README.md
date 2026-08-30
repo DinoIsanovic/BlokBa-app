@@ -46,10 +46,10 @@ Najnovija verzija: **[Izdanja](../../releases/latest)**
 
 | Sistem | Preuzimanje | Napomena |
 |---|---|---|
-| Windows 10/11 | **[BlokBa-1.1.0-Setup.exe](https://github.com/DinoIsanovic/BlokBa-app/releases/latest/download/BlokBa-1.1.1-Setup.exe)** | Preporučeno — instalira se jednom, pokreće se odmah |
-| Windows 10/11 | [BlokBa-1.1.0-portable.exe](https://github.com/DinoIsanovic/BlokBa-app/releases/latest/download/BlokBa-1.1.1-portable.exe) | Bez instalacije — za brzu probu, sporije se pokreće |
-| Linux (64-bit) | **[BlokBa-1.1.0.AppImage](https://github.com/DinoIsanovic/BlokBa-app/releases/latest/download/BlokBa-1.1.1.AppImage)** | Jedan fajl, bez instalacije za Linux |
-| Linux (Debian/Ubuntu) | [BlokBa_1.1.0_amd64.deb](https://github.com/DinoIsanovic/BlokBa-app/releases/latest/download/BlokBa_1.1.1_amd64.deb) | Standardni .deb paket |
+| Windows 10/11 | **[BlokBa-1.1.1-Setup.exe](https://github.com/DinoIsanovic/BlokBa-app/releases/latest/download/BlokBa-1.1.1-Setup.exe)** | Preporučeno — instalira se jednom, pokreće se odmah |
+| Windows 10/11 | [BlokBa-1.1.1-portable.exe](https://github.com/DinoIsanovic/BlokBa-app/releases/latest/download/BlokBa-1.1.1-portable.exe) | Bez instalacije — za brzu probu, sporije se pokreće |
+| Linux (64-bit) | **[BlokBa-1.1.1.AppImage](https://github.com/DinoIsanovic/BlokBa-app/releases/latest/download/BlokBa-1.1.1.AppImage)** | Jedan fajl, bez instalacije za Linux |
+| Linux (Debian/Ubuntu) | [BlokBa_1.1.1_amd64.deb](https://github.com/DinoIsanovic/BlokBa-app/releases/latest/download/BlokBa_1.1.1_amd64.deb) | Standardni .deb paket |
 
 ---
 
