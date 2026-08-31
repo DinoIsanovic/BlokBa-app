@@ -75,8 +75,8 @@ Python is **not required** — it ships inside the program.
 The downloaded AppImage file has no execute permission. In a terminal:
 
 ```bash
-chmod +x BlokBa-1.1.0.AppImage
-./BlokBa-1.1.0.AppImage
+chmod +x BlokBa-1.1.1.AppImage
+./BlokBa-1.1.1.AppImage
 ```
 
 Or right-click → *Properties* → *Permissions* → *Is executable*.
@@ -85,7 +85,7 @@ For Debian/Ubuntu and related distributions, you can install the `.deb`
 package instead of the AppImage:
 
 ```bash
-sudo dpkg -i BlokBa_1.1.0_amd64.deb
+sudo dpkg -i BlokBa_1.1.1_amd64.deb
 ```
 
 **Python 3.10 or newer must be installed.** Most distributions already have it.
