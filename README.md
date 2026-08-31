@@ -75,7 +75,7 @@ Preuzeti AppImage fajl nema dozvolu za izvršavanje. U terminalu:
 
 ```bash
 chmod +x BlokBa-1.1.1.AppImage
-./BlokBa-1.1.0.AppImage
+./BlokBa-1.1.1.AppImage
 ```
 
 Ili desni klik → *Properties* → *Permissions* → *Is executable*.
