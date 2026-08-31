@@ -106,7 +106,7 @@ ima. Ako ga nema, BlokBa će ti javiti i ispisati tačnu komandu za instalaciju.
 - **Robot-asistent** koji objašnjava greške dječijim jezikom, bez interneta
 - **Kornjača** za crtanje, na mreži sa koordinatama
 - **Izvoz u `.py`** — program se otvara u PyCharmu i radi isto
-- **Pet jezika sučelja:** bosanski, hrvatski, engleski, njemački, ćirilica
+- **4 jezika sučelja:** bosanski, hrvatski, engleski, njemački, ćirilica
 
 ---
 
