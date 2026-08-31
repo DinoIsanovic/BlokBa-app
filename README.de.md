@@ -116,7 +116,7 @@ Installationsbefehl für das jeweilige System an.
 - **Turtle-Grafik** auf einem Koordinatenraster
 - **Export nach `.py`** — das Programm lässt sich in PyCharm öffnen und verhält
   sich identisch
-- **Fünf Oberflächensprachen:** Bosnisch, Kroatisch, Englisch, Deutsch,
+- **4 Oberflächensprachen:** Bosnisch, Kroatisch, Englisch, Deutsch,
   Kyrillisch
 
 ---
