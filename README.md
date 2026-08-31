@@ -74,7 +74,7 @@ Python **nije potreban** — zapakovan je u sam program.
 Preuzeti AppImage fajl nema dozvolu za izvršavanje. U terminalu:
 
 ```bash
-chmod +x BlokBa-1.1.0.AppImage
+chmod +x BlokBa-1.1.1.AppImage
 ./BlokBa-1.1.0.AppImage
 ```
 
@@ -84,7 +84,7 @@ Za Debian/Ubuntu i srodne distribucije, umjesto AppImage-a možeš instalirati
 `.deb` paket:
 
 ```bash
-sudo dpkg -i BlokBa_1.1.0_amd64.deb
+sudo dpkg -i BlokBa_1.1.1_amd64.deb
 ```
 
 **Potreban je Python 3.10 ili noviji** na sistemu. Većina distribucija ga već
