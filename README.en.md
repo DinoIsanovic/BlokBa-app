@@ -111,7 +111,7 @@ system.
 - **Robot assistant** that explains errors in plain language, no internet needed
 - **Turtle graphics** on a coordinate grid
 - **Export to `.py`** — the program opens in PyCharm and behaves the same
-- **Five interface languages:** Bosnian, Croatian, English, German, Cyrillic
+- **4 interface languages:** Bosnian, Croatian, English, German, Cyrillic
 
 ---
 
