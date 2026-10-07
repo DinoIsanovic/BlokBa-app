@@ -12,7 +12,7 @@ derselbe Helfer — nur schreiben sie den Code jetzt selbst.
 Funktioniert **vollständig offline**, unter Windows und Linux, auch auf älteren
 Rechnern.
 
-> [Bosanski](README.md) · [English](README.en.md) · **Deutsch**
+> [Bosanski](README.md) · [Hrvatski](README.hr.md) · [English](README.en.md) · **Deutsch**
 
 <img width="1423" height="892" alt="BlokBa — Blöcke und Python-Code nebeneinander" src="https://github.com/user-attachments/assets/18916c19-89f8-4980-aeb8-12acf0f05402" />
 

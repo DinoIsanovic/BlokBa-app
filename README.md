@@ -11,7 +11,7 @@ kod pišu sami.
 Radi **potpuno bez interneta**, na Windowsu i Linuxu, i na starijim
 računarima.
 
-> **Bosanski** · [English](README.en.md) · [Deutsch](README.de.md)
+> **Bosanski** · [Hrvatski](README.hr.md) · [English](README.en.md) · [Deutsch](README.de.md)
 
 <img width="1423" height="892" alt="BlokBa — blokovi i Python kod jedan pored drugog" src="https://github.com/user-attachments/assets/18916c19-89f8-4980-aeb8-12acf0f05402" />
 

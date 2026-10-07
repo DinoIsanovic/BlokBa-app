@@ -10,7 +10,7 @@ terminal, same helper — only now they write the code themselves.
 
 Works **completely offline**, on Windows and Linux, including older computers.
 
-> [Bosanski](README.md) · **English** · [Deutsch](README.de.md)
+> [Bosanski](README.md) · [Hrvatski](README.hr.md) · **English** · [Deutsch](README.de.md)
 
 <img width="1423" height="892" alt="BlokBa — blocks and Python code side by side" src="https://github.com/user-attachments/assets/18916c19-89f8-4980-aeb8-12acf0f05402" />
 
