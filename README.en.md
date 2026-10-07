@@ -1,56 +1,142 @@
 # BlokBa
 
-**Hybrid block-based programming for the classroom.**
+**From the first block to a real Python program — in one application.**
 
-Students snap blocks together and see them **translated live into real Python**
-that runs immediately. The code sits next to the blocks, line by line. Works
-fully offline.
+BlokBa is a free application for teaching programming in primary school.
+Students snap blocks together, and the blocks are **translated live into real
+Python code** that runs right away. When it is time for text-based
+programming, students stay in the same application: same window, same
+terminal, same helper — only now they write the code themselves.
 
-## What "hybrid" means
+Works **completely offline**, on Windows and Linux, including older computers.
 
-In most block-based tools the block is a metaphor. A command like
-`say [Hello]` has nothing to do with how that is written in a real
-programming language — the child learns to snap blocks, then starts over.
-
-In BlokBa the block shows the **actual syntax**:
-
-    ⌨ WHOLE NUMBER INPUT  [x]  = int( input( "enter a number: " ))
-
-which produces:
-
-```python
-x = int(input("enter a number: "))
-```
-
-The brackets, quotes and `int()` aren't decoration — that is the Python
-that runs.
-
-Three steps, inside one application:
-
-1. **Snapping** — younger students drag blocks and watch the code beside them
-2. **Typing** — expressions are typed straight into a block field, e.g. `x + a`
-   instead of assembling separate blocks for addition
-3. **Exporting** — `File → Export as .py` produces a file that opens in
-   PyCharm and behaves identically
-
-So moving to text-based programming isn't a leap but a step: the student has
-been reading that code all year, line by line.
 > [Bosanski](README.md) · **English** · [Deutsch](README.de.md)
 
-<!-- IMAGE: main screen screenshot goes here -->
+<img width="1423" height="892" alt="BlokBa — blocks and Python code side by side" src="https://github.com/user-attachments/assets/18916c19-89f8-4980-aeb8-12acf0f05402" />
 
 ---
 
 ## Download
 
-Latest version: **[Releases](../../releases/latest)**
+Latest version: **[BlokBa 2.0.0](../../releases/latest)**
 
 | System | Download | Note |
 |---|---|---|
-| Windows 10/11 | **[BlokBa-1.1.1-Setup.exe](https://github.com/DinoIsanovic/BlokBa-app/releases/latest/download/BlokBa-1.1.1-Setup.exe)** | Recommended — install once, starts instantly |
-| Windows 10/11 | [BlokBa-1.1.1-portable.exe](https://github.com/DinoIsanovic/BlokBa-app/releases/latest/download/BlokBa-1.1.1-portable.exe) | No installation — for a quick try, slower to start |
-| Linux (64-bit) | **[BlokBa-1.1.1.AppImage](https://github.com/DinoIsanovic/BlokBa-app/releases/latest/download/BlokBa-1.1.1.AppImage)** | Single file, no installation for Linux |
-| Linux (Debian/Ubuntu) | [BlokBa_1.1.1_amd64.deb](https://github.com/DinoIsanovic/BlokBa-app/releases/latest/download/BlokBa_1.1.1_amd64.deb) | Standard .deb package |
+| Windows 10/11 | **[BlokBa-2.0.0-Setup.exe](https://github.com/DinoIsanovic/BlokBa-app/releases/latest/download/BlokBa-2.0.0-Setup.exe)** | Recommended — install once |
+| Windows 10/11 | [BlokBa-2.0.0-portable.exe](https://github.com/DinoIsanovic/BlokBa-app/releases/latest/download/BlokBa-2.0.0-portable.exe) | No installation, e.g. from a USB stick |
+| Linux (64-bit) | **[BlokBa-2.0.0.AppImage](https://github.com/DinoIsanovic/BlokBa-app/releases/latest/download/BlokBa-2.0.0.AppImage)** | Single file, no installation |
+| Linux (Debian/Ubuntu) | [BlokBa_2.0.0_amd64.deb](https://github.com/DinoIsanovic/BlokBa-app/releases/latest/download/BlokBa_2.0.0_amd64.deb) | Standard .deb package |
+
+First-run instructions are [below](#first-run).
+
+---
+
+## From block to code
+
+In most block-based tools a block is a metaphor: a command like `say [Hello]`
+has nothing to do with how it's written in a real language. In BlokBa the
+block shows **actual Python syntax**:
+
+    ⌨ INPUT WHOLE NUMBER  [x]  = int( input( "enter a number: " ))
+
+```python
+x = int(input("enter a number: "))
+```
+
+Brackets, quotes and `int()` aren't decoration — that's the code that runs.
+So the path to text-based programming takes three steps, without switching
+tools:
+
+| Step | What the student does |
+|---|---|
+| 🧩 **Snapping** | Drags blocks and watches Python code appear next to them, line by line. |
+| ✏️ **Typing** | Types an expression into a block field (`x + a`, `n % 2 == 0`) instead of building it from smaller blocks. |
+| 🐍 **Writing code** | Writes the whole program in the Python editor. A program built from blocks opens in the editor as code, and code can be turned back into blocks. |
+
+---
+
+## What BlokBa offers
+
+### 🧩 Blocks that are Python
+- 11 categories: variables, input and output, math, conditions, loops, text,
+  lists, drawing, sound, functions and start
+- Python code is built live next to the blocks
+- A variable name is written with the pencil right in the block — the
+  variable is created automatically
+- The condition in IF and WHILE blocks is a real block: pull it out, swap it,
+  or type it in
+
+### 🤖 Guided tour
+**10 step-by-step lessons** — from the first line printed on screen to loops
+and conditions. BoT the robot points to where to click and checks every
+step. Each lesson ends with an **independent task**.
+
+### 🐍 Python editor
+- Programs are saved as ordinary `.py` files in the student's own folder
+- **Each line is checked while typing** — a mistake is marked right away,
+  not only when the program runs
+- The editor keeps indentation after `if`, `for`, `while` and `def`
+- Everything saves automatically, with earlier versions to go back to
+
+### ✅ Exercises with checking
+**53 exercises** in five areas: output, variables, input, conditions and
+loops. Kinds of tasks:
+- **fill in the blanks** in a finished program
+- **fix the bug** in a program that doesn't work
+- **write a program** from a description
+- **arrange the lines** of a shuffled program in the right order and
+  indentation
+
+The **✔ Check** button runs the student's program with set inputs and
+compares the output with the solution. When something is wrong, the hint
+depends on the kind of mistake. Completed exercises are remembered in the
+student's folder.
+
+### 👀 See what the program does
+- **The variable table** updates live while the program runs, with data types
+- **Step by step:** the program runs one line at a time, with the current
+  line highlighted
+- **The turtle** draws on a grid with coordinates; **sound** plays notes
+- Input and output go through a terminal, as in real Python
+
+### 💬 Help when the program crashes
+The robot assistant translates Python errors into plain language: what
+happened, on which line, and how to fix it. It also recognises infinite
+loops. Works **without internet** and without any setup. Optionally, a real
+AI helper can be switched on — see [BoT with an AI model](#bot-with-an-ai-model).
+
+### 🌍 Languages
+Interface in **Bosnian** (Latin and Cyrillic), **Croatian**, **English** and
+**German**. The guided tour and exercises are translated.
+
+---
+
+## Using BlokBa in class
+
+**Classrooms without internet, and old computers.** BlokBa needs nothing from
+the network. The Windows version carries its own Python, so school computers
+need nothing installed apart from the application itself.
+
+**One tool from grade 6 to grade 9.** Students start with blocks, move on to
+typing expressions into block fields, then to the Python editor. The
+environment stays the same, so no time is spent learning a new program.
+
+**On the projector.** Code next to the blocks, step-by-step execution and the
+variable table show what happens inside a program as it runs — what the
+computer does on each line and how values change.
+
+**Independent work.** The guided tour introduces the application without the
+teacher explaining every click. Exercises check themselves and the robot
+explains errors, which leaves the teacher free for the students who really
+need help.
+
+**Every student in their own folder.** Open and save dialogs start in
+`Documents`, where students keep their own folders (e.g. `6aG1`, `6aG2`).
+Programs and completed exercises stay there.
+
+**Working at home.** The application is free and works the same at home as
+at school. A program can be exported as a `.py` file and opened in any Python
+environment.
 
 ---
 
@@ -58,110 +144,60 @@ Latest version: **[Releases](../../releases/latest)**
 
 ### Windows
 
-On first launch Windows shows a blue dialog:
+On first launch Windows may show a blue window: **"Windows protected your
+PC"**. This is not a virus — the message appears for every program that isn't
+digitally signed. Click **More info**, then **Run anyway**.
 
-> **Windows protected your PC**
-
-**This is not a virus.** The message appears for any program that isn't
-digitally signed, and signing costs several hundred euros a year — hard to
-justify for a free school application.
-
-Click **More info**, then **Run anyway**.
-
-Python is **not required** — it ships inside the program.
+Python is **not required** — it is bundled with the program. If Python is
+already installed on the computer, BlokBa uses that one.
 
 ### Linux
 
-The downloaded AppImage file has no execute permission. In a terminal:
+The AppImage needs permission to run: right-click → *Properties* →
+*Permissions* → *Is executable*, or in a terminal:
 
 ```bash
-chmod +x BlokBa-1.1.1.AppImage
-./BlokBa-1.1.1.AppImage
+chmod +x BlokBa-2.0.0.AppImage
+./BlokBa-2.0.0.AppImage
 ```
 
-Or right-click → *Properties* → *Permissions* → *Is executable*.
-
-For Debian/Ubuntu and related distributions, you can install the `.deb`
-package instead of the AppImage:
+On Debian and Ubuntu you can install the `.deb` package instead:
 
 ```bash
-sudo dpkg -i BlokBa_1.1.1_amd64.deb
+sudo dpkg -i BlokBa_2.0.0_amd64.deb
 ```
 
-**Python 3.10 or newer must be installed.** Most distributions already have it.
-If not, BlokBa will tell you and print the exact install command for your
-system.
-
----
-<img width="1421" height="890" alt="image" src="https://github.com/user-attachments/assets/2e25d786-4a20-4316-a548-12685bf52036" />
-
-
-
-
-
-## What BlokBa does
-
-- **In-app guide (BoT)** — 10 step-by-step lessons, from the first "print
-  to screen" through more advanced statements, with a friendly robot
-  tracking progress
-- **11 block categories** — start, variables, input/output, maths, conditions,
-  loops, text, lists, drawing, sound, functions
-- **Live Python code** beside the blocks, so students see what each block means
-- **Variable table** that updates while the program runs, showing data types
-- **Robot assistant** that explains errors in plain language, no internet needed
-- **Turtle graphics** on a coordinate grid
-- **Export to `.py`** — the program opens in PyCharm and behaves the same
-- **4 interface languages:** Bosnian, Croatian, English, German, Cyrillic
+**Python 3.10 or newer** is required. Most distributions already have it; if
+not, BlokBa says so and prints the install command.
 
 ---
 
-## BoT — the learning assistant
+## BoT with an AI model
 
-BlokBa ships with an assistant that works on **two levels**.
+On top of the help that always works offline, BoT can be connected to a real
+language model, so students can ask in their own words — both with blocks and
+in the Python editor. BoT sees the student's program and knows which blocks
+exist, but **does not solve the task for the student**: it guides with
+questions, step by step.
 
-### Offline — always available
-
-When a program crashes, BoT translates the Python error into plain language:
-what happened, on which line, and how to fix it. It also detects runaway loops
-and explains why they occur.
-
-This needs **nothing at all** — no internet, no key, no setup. It's how BlokBa
-works in a classroom with no network.
-
-### With a real AI model — optional
-
-If you want students to ask questions in their own words, BoT can connect to a
-real language model:
-
-| Service | Requires |
+| Service | Required |
 |---|---|
 | Anthropic (Claude) | API key, internet |
 | OpenAI (GPT) | API key, internet |
 | Google (Gemini) | API key, internet |
-| **Ollama** | a locally installed model, **no internet** |
+| **Ollama** | locally installed model, **no internet** |
 
-Set it up under **AI Asistent → Postavi API ključ**. The key is stored **on that
-computer only** and is never sent anywhere except the service you chose.
+Set it up in the menu **AI Assistant → Set API key**. The key stays on that
+computer only. The AI helper stays **off until you switch it on.**
 
-BoT knows which blocks exist in BlokBa, so it advises using their real names
-instead of inventing Python that can't be built from blocks. It won't solve the
-task for the student — it walks them through it.
-
-### Before you turn it on
-
-**Cost.** Anthropic, OpenAI and Google bill per use, on your own account. Google
-offers a free tier that is usually enough to try it out.
-
-**Privacy.** With an online service enabled, the questions and code a student
-writes are sent to that provider. When working with children this deserves a
-deliberate decision, and a look at your school's policy. **Ollama keeps
-everything on the machine** — nothing leaves it.
-
-**Ollama needs a capable computer.** A decent model takes several gigabytes of
-memory, ideally on a graphics card. On older classroom machines this isn't
-realistic — there, the offline assistant is the one that works.
-
-The online assistant stays **off until you switch it on.**
+**Before you turn it on:**
+- **Cost.** Anthropic, OpenAI and Google bill usage to your own account;
+  Google has a free tier for trying it out.
+- **Privacy.** With online services, the questions and the student's code are
+  sent to that provider. This deserves a deliberate decision, in line with
+  your school's policy. **Ollama keeps everything on the computer.**
+- **Ollama needs a capable computer** — several gigabytes of memory, ideally
+  on a graphics card. On old classroom machines, the offline help remains.
 
 ---
 
@@ -169,7 +205,7 @@ The online assistant stays **off until you switch it on.**
 
 <!-- LINK: Discord channel link goes here -->
 
-Please **always include the version number** (*Help → About*) and your operating
+Please **always include the version number** (*Help → About BlokBa*) and your operating
 system. Without it there's no way to tell whether the bug is already fixed.
 
 A screenshot helps more than a description.
@@ -181,6 +217,7 @@ A screenshot helps more than a description.
 BlokBa is free and will stay free. If you'd like to support further work:
 
 Paypal: nodi_bih@yahoo.de
+
 ---
 
 ## Terms of use

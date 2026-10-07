@@ -1,55 +1,136 @@
 # BlokBa
 
-**Hibridno blokovsko programiranje za nastavu informatike.**
+**Od prvog bloka do pravog Python programa — u jednoj aplikaciji.**
 
-Đaci slažu blokove, a oni se **uživo prevode u pravi Python kod** koji se odmah
-izvršava. Kod se vidi pored blokova, red po red. Radi potpuno offline.
+BlokBa je besplatna aplikacija za nastavu programiranja u osnovnoj školi.
+Đaci slažu blokove, a blokovi se **uživo prevode u pravi Python kod** koji se
+odmah izvršava. Kad dođe vrijeme za tekstualno programiranje, đaci ostaju u
+istoj aplikaciji: isti prozor, isti terminal, isti pomoćnik — samo što sada
+kod pišu sami.
 
-## Šta znači „hibridno"
-
-U većini blokovskih alata blok je metafora. Naredba tipa `reci [Zdravo]`
-nema nikakve veze sa tim kako se to piše u pravom programskom jeziku —
-dijete nauči slagati blokove, a poslije kreće ispočetka.
-
-U BlokBa blok pokazuje **stvarnu sintaksu**:
-
-    ⌨ UNOS CIJELOG BROJA  [x]  = int( input( "unesi broj: " ))
-
-iz čega nastaje:
-
-```python
-x = int(input("unesi broj: "))
-```
-
-Zagrade, navodnici i `int()` nisu ukras — to je Python koji se izvršava.
-
-Tri stepenika, unutar iste aplikacije:
-
-1. **Slaganje** — mlađi đaci samo prevlače blokove i gledaju kod pored njih
-2. **Upisivanje** — u polje bloka se kuca izraz preko tastature, npr. `x + a`
-   umjesto slaganja posebnih blokova za sabiranje
-3. **Izvoz** — `Datoteka → Izvezi kao .py` daje fajl koji se otvori u
-   PyCharmu i radi identično
-
-Zato prelazak na tekstualno programiranje u VII ili VIII razredu nije skok
-nego korak: dijete je taj kod već čitalo cijelu godinu, red po red.
+Radi **potpuno bez interneta**, na Windowsu i Linuxu, i na starijim
+računarima.
 
 > **Bosanski** · [English](README.en.md) · [Deutsch](README.de.md)
 
-<!-- SLIKA: ovdje ubaci screenshot glavnog ekrana -->
+<img width="1423" height="892" alt="BlokBa — blokovi i Python kod jedan pored drugog" src="https://github.com/user-attachments/assets/18916c19-89f8-4980-aeb8-12acf0f05402" />
 
 ---
 
 ## Preuzimanje
 
-Najnovija verzija: **[Izdanja](../../releases/latest)**
+Najnovija verzija: **[BlokBa 2.0.0](../../releases/latest)**
 
 | Sistem | Preuzimanje | Napomena |
 |---|---|---|
-| Windows 10/11 | **[BlokBa-1.1.1-Setup.exe](https://github.com/DinoIsanovic/BlokBa-app/releases/latest/download/BlokBa-1.1.1-Setup.exe)** | Preporučeno — instalira se jednom, pokreće se odmah |
-| Windows 10/11 | [BlokBa-1.1.1-portable.exe](https://github.com/DinoIsanovic/BlokBa-app/releases/latest/download/BlokBa-1.1.1-portable.exe) | Bez instalacije — za brzu probu, sporije se pokreće |
-| Linux (64-bit) | **[BlokBa-1.1.1.AppImage](https://github.com/DinoIsanovic/BlokBa-app/releases/latest/download/BlokBa-1.1.1.AppImage)** | Jedan fajl, bez instalacije za Linux |
-| Linux (Debian/Ubuntu) | [BlokBa_1.1.1_amd64.deb](https://github.com/DinoIsanovic/BlokBa-app/releases/latest/download/BlokBa_1.1.1_amd64.deb) | Standardni .deb paket |
+| Windows 10/11 | **[BlokBa-2.0.0-Setup.exe](https://github.com/DinoIsanovic/BlokBa-app/releases/latest/download/BlokBa-2.0.0-Setup.exe)** | Preporučeno — instalira se jednom |
+| Windows 10/11 | [BlokBa-2.0.0-portable.exe](https://github.com/DinoIsanovic/BlokBa-app/releases/latest/download/BlokBa-2.0.0-portable.exe) | Bez instalacije, npr. sa USB-a |
+| Linux (64-bit) | **[BlokBa-2.0.0.AppImage](https://github.com/DinoIsanovic/BlokBa-app/releases/latest/download/BlokBa-2.0.0.AppImage)** | Jedan fajl, bez instalacije |
+| Linux (Debian/Ubuntu) | [BlokBa_2.0.0_amd64.deb](https://github.com/DinoIsanovic/BlokBa-app/releases/latest/download/BlokBa_2.0.0_amd64.deb) | Standardni .deb paket |
+
+Upute za prvo pokretanje su [niže](#prvo-pokretanje).
+
+---
+
+## Od bloka do koda
+
+U većini blokovskih alata blok je metafora: naredba tipa `reci [Zdravo]`
+nema veze sa tim kako se to piše u pravom jeziku. U BlokBa blok pokazuje
+**stvarnu Python sintaksu**:
+
+    ⌨ UNOS CIJELOG BROJA  [x]  = int( input( "unesi broj: " ))
+
+```python
+x = int(input("unesi broj: "))
+```
+
+Zagrade, navodnici i `int()` nisu ukras — to je kod koji se izvršava. Zato
+put do tekstualnog programiranja ide u tri koraka, bez promjene alata:
+
+| Korak | Šta đak radi |
+|---|---|
+| 🧩 **Slaganje** | Prevlači blokove i gleda kako uz njih nastaje Python kod, red po red. |
+| ✏️ **Upisivanje** | U polje bloka kuca izraz tastaturom (`x + a`, `broj % 2 == 0`) umjesto da ga slaže iz manjih blokova. |
+| 🐍 **Pisanje koda** | U Python editoru piše cijeli program sam. Program napravljen od blokova otvara se u editoru kao kod, a kod se može vratiti u blokove. |
+
+---
+
+## Šta BlokBa nudi
+
+### 🧩 Blokovi koji su Python
+- 11 kategorija: varijable, ulaz i izlaz, matematika, provjera, petlje,
+  tekst, liste, crtanje, zvuk, funkcije i start
+- Python kod se gradi uživo pored blokova
+- Ime varijable se upiše olovkom direktno u blok — varijabla se napravi sama
+- Uslov u bloku AKO i DOK je pravi blok: izvuče se, zamijeni ili upiše
+
+### 🤖 Vodič kroz aplikaciju
+**10 lekcija** korak po korak — od prvog ispisa na ekran do petlji i
+uslova. Robotić BoT pokazuje gdje se klikne i provjerava svaki korak. Na kraju
+lekcije đak dobija **samostalni zadatak**.
+
+### 🐍 Python editor
+- Programi se čuvaju kao obični `.py` fajlovi u đakovoj fascikli
+- **Red se provjerava dok se kuca** — greška se označi odmah, ne tek pri
+  pokretanju
+- Editor sam drži uvlaku poslije `if`, `for`, `while` i `def`
+- Sve se sprema samo, uz ranije verzije za povratak
+
+### ✅ Vježbe sa provjerom
+**53 vježbe** u pet oblasti: ispis, varijable, unos, uslovi i petlje.
+Vrste zadataka:
+- **dopuni praznine** u gotovom programu
+- **ispravi grešku** u programu koji ne radi
+- **napiši program** prema opisu
+- **složi redove** pomiješanog programa u ispravan redoslijed i uvlaku
+
+Dugme **✔ Provjeri** pokreće đakov program sa zadanim ulazima i poredi ispis
+sa rješenjem. Kad nešto ne valja, savjet zavisi od vrste greške. Urađene
+vježbe se pamte u đakovoj fascikli.
+
+### 👀 Vidi se šta program radi
+- **Tabela varijabli** se mijenja uživo dok program radi, sa tipom podatka
+- **Korak po korak:** program se izvršava red po red, a trenutni red je
+  osvijetljen
+- **Kornjača** crta na mreži sa koordinatama; **zvuk** svira note
+- Ulaz i izlaz idu kroz terminal, kao u pravom Pythonu
+
+### 💬 Pomoć kad program pukne
+Robot-asistent prevodi Python grešku na jednostavan jezik: šta se desilo, u
+kojem redu i kako se popravlja. Prepoznaje i beskonačnu petlju. Radi **bez
+interneta** i bez ikakvog podešavanja. Po želji se može uključiti i pravi AI
+pomoćnik — vidi [BoT sa AI modelom](#bot-sa-ai-modelom).
+
+### 🌍 Jezici
+Sučelje na **bosanskom** (latinica i ćirilica), **hrvatskom**, **engleskom** i
+**njemačkom**. Vodič i vježbe su prevedeni.
+
+---
+
+## Primjena u nastavi
+
+**Učionica bez interneta i stari računari.** BlokBa ništa ne traži sa mreže.
+Windows verzija nosi svoj Python, pa na školskim računarima ne treba ništa
+instalirati osim same aplikacije.
+
+**Jedan alat od VI do IX razreda.** Đaci počinju blokovima, prelaze na
+upisivanje izraza u polje bloka, pa na Python editor. Okruženje se ne mijenja,
+pa se vrijeme ne troši na upoznavanje novog programa.
+
+**Prikaz na projektoru.** Kod pored blokova, korak po korak i tabela
+varijabli pokazuju šta se dešava unutar programa dok se izvršava — šta
+računar radi u svakom redu i kako se mijenjaju vrijednosti.
+
+**Samostalan rad.** Vodič uvodi u aplikaciju bez nastavnikovog objašnjavanja
+svakog klika. Vježbe se same provjeravaju, a robot objašnjava grešku, pa
+nastavnik ostaje slobodan za đake kojima zaista treba pomoć.
+
+**Svaki đak u svojoj fascikli.** Dijalozi za otvaranje i spremanje polaze od
+`Documents`, gdje đaci imaju svoje fascikle (npr. `6aG1`, `6aG2`). Programi i
+urađene vježbe ostaju tamo.
+
+**Rad kod kuće.** Aplikacija je besplatna i radi isto kod kuće kao u školi.
+Program se izvozi kao `.py` fajl i otvara u svakom Python okruženju.
 
 ---
 
@@ -57,76 +138,41 @@ Najnovija verzija: **[Izdanja](../../releases/latest)**
 
 ### Windows
 
-Pri prvom pokretanju Windows će prikazati plavi prozor:
+Pri prvom pokretanju Windows može prikazati plavi prozor **„Windows je
+zaštitio vaš računar"**. To nije virus — poruka se javlja kod svakog programa
+koji nije digitalno potpisan. Klikni **More info** (Više informacija), pa
+**Run anyway** (Pokreni svejedno).
 
-> **Windows je zaštitio vaš računar**
-
-**To nije virus.** Poruka se javlja kod svakog programa koji nije digitalno
-potpisan, a potpisivanje košta nekoliko stotina eura godišnje — što za
-besplatnu školsku aplikaciju nema smisla.
-
-Klikni **More info** (Više informacija), pa **Run anyway** (Pokreni svejedno).
-
-Python **nije potreban** — zapakovan je u sam program.
+Python **nije potreban** — zapakovan je u program. Ako je na računaru već
+instaliran Python, BlokBa koristi njega.
 
 ### Linux
 
-Preuzeti AppImage fajl nema dozvolu za izvršavanje. U terminalu:
+AppImage treba dozvolu za izvršavanje: desni klik → *Properties* →
+*Permissions* → *Is executable*, ili u terminalu:
 
 ```bash
-chmod +x BlokBa-1.1.1.AppImage
-./BlokBa-1.1.1.AppImage
+chmod +x BlokBa-2.0.0.AppImage
+./BlokBa-2.0.0.AppImage
 ```
 
-Ili desni klik → *Properties* → *Permissions* → *Is executable*.
-
-Za Debian/Ubuntu i srodne distribucije, umjesto AppImage-a možeš instalirati
-`.deb` paket:
+Na Debianu i Ubuntuu može se instalirati i `.deb` paket:
 
 ```bash
-sudo dpkg -i BlokBa_1.1.1_amd64.deb
+sudo dpkg -i BlokBa_2.0.0_amd64.deb
 ```
 
-**Potreban je Python 3.10 ili noviji** na sistemu. Većina distribucija ga već
-ima. Ako ga nema, BlokBa će ti javiti i ispisati tačnu komandu za instalaciju.
-
----
-<img width="1423" height="892" alt="image" src="https://github.com/user-attachments/assets/18916c19-89f8-4980-aeb8-12acf0f05402" />
-
-
-
-## Šta BlokBa radi
-
-- **Vodič kroz aplikaciju (BoT)** — 10 lekcija korak-po-korak, od prvog
-  ispisa na ekran do naprednijih naredbi, sa robotićem koji prati napredak
-- **11 kategorija blokova** — start, varijable, ulaz/izlaz, matematika,
-  provjera, petlje, tekst, liste, crtanje, zvuk, funkcije
-- **Živi Python kod** pored blokova — dijete vidi šta svaki blok znači
-- **Tabela varijabli** koja se mijenja dok program radi, sa tipovima podataka
-- **Robot-asistent** koji objašnjava greške dječijim jezikom, bez interneta
-- **Kornjača** za crtanje, na mreži sa koordinatama
-- **Izvoz u `.py`** — program se otvara u PyCharmu i radi isto
-- **4 jezika sučelja:** bosanski, hrvatski, engleski, njemački, ćirilica
+Potreban je **Python 3.10 ili noviji**. Većina distribucija ga već ima; ako
+ga nema, BlokBa javi i ispiše komandu za instalaciju.
 
 ---
 
-## BoT — pomoćnik u učenju
+## BoT sa AI modelom
 
-BlokBa ima ugrađenog pomoćnika koji radi na **dva nivoa**.
-
-### Bez interneta — uvijek radi
-
-Kad program pukne, BoT prevede Python grešku na dječiji jezik: šta se desilo, u
-kojem redu, i kako se popravlja. Prepoznaje i beskonačnu petlju i objasni zašto
-se javila.
-
-Za ovo **nije potrebno ništa** — ni internet, ni ključ, ni podešavanje. Tako
-BlokBa radi u učionici bez mreže.
-
-### Sa pravim AI modelom — po želji
-
-Ako želiš da đak može pitati vlastitim riječima, BoT se može povezati sa pravim
-jezičkim modelom. Podržani su:
+Pored pomoći koja uvijek radi bez interneta, BoT se može povezati sa pravim
+jezičkim modelom, pa đak može pitati vlastitim riječima — i u blokovima i u
+Python editoru. BoT vidi đakov program i zna koji blokovi postoje, ali **ne
+rješava zadatak umjesto đaka**: vodi ga pitanjima, korak po korak.
 
 | Servis | Potrebno |
 |---|---|
@@ -135,28 +181,17 @@ jezičkim modelom. Podržani su:
 | Google (Gemini) | API ključ, internet |
 | **Ollama** | lokalno instaliran model, **bez interneta** |
 
-Podešava se u meniju **AI Asistent → Postavi API ključ**. Ključ se čuva **samo
-na tom računaru** i ne šalje se nigdje osim izabranom servisu.
+Podešava se u meniju **AI Asistent → Postavi API ključ**. Ključ ostaje samo na
+tom računaru. AI pomoćnik je **isključen dok ga sam ne uključiš.**
 
-BoT zna koji blokovi postoje u BlokBa, pa savjetuje njihovim imenima umjesto da
-izmišlja Python koji se blokovima ne može složiti. Ne rješava zadatak umjesto
-đaka — vodi ga korak po korak.
-
-### Šta treba znati prije uključivanja
-
-**Cijena.** Anthropic, OpenAI i Google naplaćuju po korištenju, na tvoj račun.
-Google nudi besplatan nivo koji je za probu obično dovoljan.
-
-**Privatnost.** Ako uključiš mrežni servis, pitanja i kod koje đak napiše odlaze
-tom servisu. Za rad sa djecom to je odluka koju treba donijeti svjesno — i
-provjeriti šta o tome kaže školska politika. **Ollama sve drži na računaru** i
-ništa ne izlazi napolje.
-
-**Ollama traži jači računar.** Model pristojnog kvaliteta zauzima nekoliko
-gigabajta memorije, najbolje na grafičkoj kartici. Na starim učioničkim
-mašinama to nije izvodljivo — tamo ostaje pomoć koja radi bez interneta.
-
-Mrežni pomoćnik je **isključen dok ga sam ne uključiš.**
+**Prije uključivanja treba znati:**
+- **Cijena.** Anthropic, OpenAI i Google naplaćuju korištenje na tvoj račun;
+  Google ima besplatan nivo za probu.
+- **Privatnost.** Kod mrežnih servisa pitanja i đakov kod odlaze tom servisu.
+  To je odluka koju treba donijeti svjesno, uz školsku politiku. **Ollama sve
+  drži na računaru.**
+- **Ollama traži jači računar** — nekoliko gigabajta memorije, najbolje na
+  grafičkoj kartici. Na starim učioničkim mašinama ostaje pomoć bez interneta.
 
 ---
 
@@ -164,7 +199,7 @@ Mrežni pomoćnik je **isključen dok ga sam ne uključiš.**
 
 <!-- LINK: ovdje ubaci link na Discord kanal -->
 
-Uz prijavu **obavezno navedi broj verzije** (*Pomoć → O programu*) i operativni
+Uz prijavu **obavezno navedi broj verzije** (*Pomoć → O programu BlokBa*) i operativni
 sistem. Bez toga se ne može utvrditi da li je greška već ispravljena.
 
 Screenshot pomaže više od opisa.
