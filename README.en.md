@@ -263,8 +263,6 @@ computer only. The AI helper stays **off until you switch it on.**
 
 ## Bugs and suggestions
 
-<!-- LINK: Discord channel link goes here -->
-
 Please **always include the version number** (*Help → About BlokBa*) and your operating
 system. Without it there's no way to tell whether the bug is already fixed.
 

@@ -260,8 +260,6 @@ tom računaru. AI pomoćnik je **isključen dok ga sam ne uključiš.**
 
 ## Prijava grešaka i prijedlozi
 
-<!-- LINK: ovdje ubaci link na Discord kanal -->
-
 Uz prijavu **obavezno navedi broj verzije** (*Pomoć → O programu BlokBa*) i operativni
 sistem. Bez toga se ne može utvrditi da li je greška već ispravljena.
 

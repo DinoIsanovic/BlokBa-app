@@ -275,8 +275,6 @@ aktiviert wird.**
 
 ## Fehler melden und Vorschläge
 
-<!-- LINK: hier Link zum Discord-Kanal einfügen -->
-
 Bitte **immer die Versionsnummer angeben** (*Hilfe → Über BlokBa*) sowie das
 Betriebssystem. Ohne diese Angaben lässt sich nicht feststellen, ob der Fehler
 bereits behoben ist.
