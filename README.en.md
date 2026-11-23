@@ -12,20 +12,20 @@ Works **completely offline**, on Windows and Linux, including older computers.
 
 > [Bosanski](README.md) · [Hrvatski](README.hr.md) · **English** · [Deutsch](README.de.md)
 
-<img width="1423" height="892" alt="BlokBa — blocks and Python code side by side" src="https://github.com/user-attachments/assets/18916c19-89f8-4980-aeb8-12acf0f05402" />
+<img width="1400" height="832" alt="BlokBa — blocks and Python code side by side" src="slike/naslovna-en.png" />
 
 ---
 
 ## Download
 
-Latest version: **[BlokBa 2.0.0](../../releases/latest)**
+Latest version: **[BlokBa 2.2.2](../../releases/latest)**
 
 | System | Download | Note |
 |---|---|---|
-| Windows 10/11 | **[BlokBa-2.0.0-Setup.exe](https://github.com/DinoIsanovic/BlokBa-app/releases/latest/download/BlokBa-2.0.0-Setup.exe)** | Recommended — install once |
-| Windows 10/11 | [BlokBa-2.0.0-portable.exe](https://github.com/DinoIsanovic/BlokBa-app/releases/latest/download/BlokBa-2.0.0-portable.exe) | No installation, e.g. from a USB stick |
-| Linux (64-bit) | **[BlokBa-2.0.0.AppImage](https://github.com/DinoIsanovic/BlokBa-app/releases/latest/download/BlokBa-2.0.0.AppImage)** | Single file, no installation |
-| Linux (Debian/Ubuntu) | [BlokBa_2.0.0_amd64.deb](https://github.com/DinoIsanovic/BlokBa-app/releases/latest/download/BlokBa_2.0.0_amd64.deb) | Standard .deb package |
+| Windows 10/11 | **[BlokBa-2.2.2-Setup.exe](https://github.com/DinoIsanovic/BlokBa-app/releases/latest/download/BlokBa-2.2.2-Setup.exe)** | Recommended — install once |
+| Windows 10/11 | [BlokBa-2.2.2-portable.exe](https://github.com/DinoIsanovic/BlokBa-app/releases/latest/download/BlokBa-2.2.2-portable.exe) | No installation, e.g. from a USB stick |
+| Linux (64-bit) | **[BlokBa-2.2.2.AppImage](https://github.com/DinoIsanovic/BlokBa-app/releases/latest/download/BlokBa-2.2.2.AppImage)** | Single file, no installation |
+| Linux (Debian/Ubuntu) | [BlokBa_2.2.2_amd64.deb](https://github.com/DinoIsanovic/BlokBa-app/releases/latest/download/BlokBa_2.2.2_amd64.deb) | Standard .deb package |
 
 First-run instructions are [below](#first-run).
 
@@ -66,6 +66,8 @@ tools:
 - The condition in IF and WHILE blocks is a real block: pull it out, swap it,
   or type it in
 
+![Blocks, the Python code built next to them, and the turtle drawing a square](slike/blokovi-en.png)
+
 ### 🤖 Guided tour
 **10 step-by-step lessons** — from the first line printed on screen to loops
 and conditions. BoT the robot points to where to click and checks every
@@ -78,19 +80,77 @@ step. Each lesson ends with an **independent task**.
 - The editor keeps indentation after `if`, `for`, `while` and `def`
 - Everything saves automatically, with earlier versions to go back to
 
-### ✅ Exercises with checking
-**53 exercises** in five areas: output, variables, input, conditions and
-loops. Kinds of tasks:
-- **fill in the blanks** in a finished program
-- **fix the bug** in a program that doesn't work
-- **write a program** from a description
-- **arrange the lines** of a shuffled program in the right order and
-  indentation
+### ✅ Python exercises with checking
+The exercises are for **writing real Python code**. They are done in the
+Python editor: the **🐍 Python** button, then the **📝 Exercises** tab. There
+are **53** of them, ordered along the curriculum, and each one checks itself.
 
-The **✔ Check** button runs the student's program with set inputs and
-compares the output with the solution. When something is wrong, the hint
-depends on the kind of mistake. Completed exercises are remembered in the
-student's folder.
+| Area | Exercises | What is practised |
+|---|:---:|---|
+| Block 1: `print()` | 7 | printing text and numbers, combining text and numbers, upper and lower case, brackets |
+| Block 2: variables | 7 | storing values, calculating with variables, area, a shopping bill |
+| Block 3: `input()` | 6 | keyboard input, `int()` and `float()`, why `input()` returns text |
+| Block 4: `if` / `elif` / `else` | 9 | conditions, colon and indentation, `=` vs `==`, guarding against division by zero |
+| Block 5: `for` loop | 24 | counting, countdown, sum and product, multiplication table, even numbers, letter by letter, the largest of five numbers |
+
+#### Kinds of exercises
+
+- **Fill the gap** (21 exercises). The program is finished except for one
+  or more places marked with underscores (`___`). The student deals only with the new statement; the rest
+  of the program serves as an example. E.g. *The 7 times table*,
+  *`elif` — three options*.
+- **Fix the error** (16 exercises). The program doesn't work or gives the
+  wrong result. The mistakes are the ones beginners really make: `Print`
+  instead of `print`, a missing colon or indentation, `=` instead of `==`, a
+  variable used before it exists, `input()` returning text so that `10 + 20`
+  gives `1020`, a sum that is reset to zero on every pass of the loop.
+- **Write a program** (15 exercises). There is only a description; the
+  student writes the program alone. E.g. *Temperature converter*, *Average of
+  three grades*, *Calculator with a division check*, *How many letters a?*, *The
+  largest of five*. The wording of the output is the student's own; what is
+  checked is that the results are correct.
+- **Arrange the lines** (1 exercise). The lines of a correct program are
+  shuffled and have no indentation. The student doesn't type, but moves and
+  indents the lines — in Python, indentation is part of the program. This
+  kind is modelled on two-dimensional Parsons problems.
+
+#### How checking works
+
+- **✔ Check** runs the program with preset inputs — several times with
+  different numbers where needed — and compares the output with the
+  solution's output.
+- When the output is wrong, the student sees which inputs were used and,
+  side by side, **what should have been printed** and **what the program
+  printed**.
+- When the program crashes, the robot explains the error in plain language,
+  with the original Python message in small print below it, so the student
+  gets used to reading it.
+- **💡 Hint** comes in two steps: first a question that points the way, then
+  a concrete tip for that exercise.
+- The robot's explanation comes with a tip for that particular error in
+  that exercise, e.g. what to do when `int()` gets a
+  decimal number.
+- **👁 Solution** shows the solution, **↺ Start over** resets the exercise,
+  and the arrows lead to the previous and next exercise.
+- **▶ Run** and **Step** work inside an exercise too, with the variable
+  table.
+- The exercises exist in every interface language. Besides the task text,
+  the code itself is translated: output messages and variable names.
+- Exercises start over every time the Python editor is opened, because
+  several groups use the same computer.
+
+![Python exercise: the program joins text instead of adding numbers — expected and actual output side by side, with a hint](slike/vjezba-en.png)
+
+#### In class
+
+- The areas follow the order of the curriculum, so the exercises of one area
+  can be given right after that topic.
+- Each exercise is short and self-contained, so it fits into part of a
+  lesson.
+- An exercise starts and ends in the same window where the program is written
+  and run, without switching to another program.
+- On the projector, the program from an exercise can be run step by step,
+  with the variable table.
 
 ### 👀 See what the program does
 - **The variable table** updates live while the program runs, with data types
@@ -132,7 +192,7 @@ need help.
 
 **Every student in their own folder.** Open and save dialogs start in
 `Documents`, where students keep their own folders (e.g. `6aG1`, `6aG2`).
-Programs and completed exercises stay there.
+Programs stay there.
 
 **Working at home.** The application is free and works the same at home as
 at school. A program can be exported as a `.py` file and opened in any Python
@@ -157,14 +217,14 @@ The AppImage needs permission to run: right-click → *Properties* →
 *Permissions* → *Is executable*, or in a terminal:
 
 ```bash
-chmod +x BlokBa-2.0.0.AppImage
-./BlokBa-2.0.0.AppImage
+chmod +x BlokBa-2.2.2.AppImage
+./BlokBa-2.2.2.AppImage
 ```
 
 On Debian and Ubuntu you can install the `.deb` package instead:
 
 ```bash
-sudo dpkg -i BlokBa_2.0.0_amd64.deb
+sudo dpkg -i BlokBa_2.2.2_amd64.deb
 ```
 
 **Python 3.10 or newer** is required. Most distributions already have it; if

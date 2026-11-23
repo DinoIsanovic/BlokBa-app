@@ -14,20 +14,20 @@ Rechnern.
 
 > [Bosanski](README.md) · [Hrvatski](README.hr.md) · [English](README.en.md) · **Deutsch**
 
-<img width="1423" height="892" alt="BlokBa — Blöcke und Python-Code nebeneinander" src="https://github.com/user-attachments/assets/18916c19-89f8-4980-aeb8-12acf0f05402" />
+<img width="1400" height="832" alt="BlokBa — Blöcke und Python-Code nebeneinander" src="slike/naslovna-de.png" />
 
 ---
 
 ## Download
 
-Neueste Version: **[BlokBa 2.0.0](../../releases/latest)**
+Neueste Version: **[BlokBa 2.2.2](../../releases/latest)**
 
 | System | Download | Hinweis |
 |---|---|---|
-| Windows 10/11 | **[BlokBa-2.0.0-Setup.exe](https://github.com/DinoIsanovic/BlokBa-app/releases/latest/download/BlokBa-2.0.0-Setup.exe)** | Empfohlen — einmal installieren |
-| Windows 10/11 | [BlokBa-2.0.0-portable.exe](https://github.com/DinoIsanovic/BlokBa-app/releases/latest/download/BlokBa-2.0.0-portable.exe) | Ohne Installation, z. B. vom USB-Stick |
-| Linux (64-bit) | **[BlokBa-2.0.0.AppImage](https://github.com/DinoIsanovic/BlokBa-app/releases/latest/download/BlokBa-2.0.0.AppImage)** | Eine Datei, ohne Installation |
-| Linux (Debian/Ubuntu) | [BlokBa_2.0.0_amd64.deb](https://github.com/DinoIsanovic/BlokBa-app/releases/latest/download/BlokBa_2.0.0_amd64.deb) | Standard-.deb-Paket |
+| Windows 10/11 | **[BlokBa-2.2.2-Setup.exe](https://github.com/DinoIsanovic/BlokBa-app/releases/latest/download/BlokBa-2.2.2-Setup.exe)** | Empfohlen — einmal installieren |
+| Windows 10/11 | [BlokBa-2.2.2-portable.exe](https://github.com/DinoIsanovic/BlokBa-app/releases/latest/download/BlokBa-2.2.2-portable.exe) | Ohne Installation, z. B. vom USB-Stick |
+| Linux (64-bit) | **[BlokBa-2.2.2.AppImage](https://github.com/DinoIsanovic/BlokBa-app/releases/latest/download/BlokBa-2.2.2.AppImage)** | Eine Datei, ohne Installation |
+| Linux (Debian/Ubuntu) | [BlokBa_2.2.2_amd64.deb](https://github.com/DinoIsanovic/BlokBa-app/releases/latest/download/BlokBa_2.2.2_amd64.deb) | Standard-.deb-Paket |
 
 Hinweise zum ersten Start stehen [weiter unten](#erster-start).
 
@@ -69,6 +69,8 @@ deshalb über drei Stufen, ohne das Werkzeug zu wechseln:
 - Die Bedingung in WENN- und SOLANGE-Blöcken ist ein echter Block: herausziehen,
   austauschen oder eintippen
 
+![Blöcke, der daneben entstehende Python-Code und die Schildkröte, die ein Quadrat zeichnet](slike/blokovi-de.png)
+
 ### 🤖 Geführte Einführung
 **10 Lektionen** Schritt für Schritt — von der ersten Bildschirmausgabe bis zu
 Schleifen und Bedingungen. Der Roboter BoT zeigt, wo geklickt wird, und prüft
@@ -81,19 +83,80 @@ jeden Schritt. Am Ende jeder Lektion steht eine **eigenständige Aufgabe**.
 - Der Editor hält die Einrückung nach `if`, `for`, `while` und `def`
 - Alles wird automatisch gespeichert, mit früheren Versionen zum Zurückgehen
 
-### ✅ Übungen mit Prüfung
-**53 Übungen** in fünf Bereichen: Ausgabe, Variablen, Eingabe, Bedingungen und
-Schleifen. Aufgabenarten:
-- **Lücken füllen** in einem fertigen Programm
-- **Fehler beheben** in einem Programm, das nicht funktioniert
-- **Programm schreiben** nach einer Beschreibung
-- **Zeilen ordnen** — ein gemischtes Programm in die richtige Reihenfolge und
-  Einrückung bringen
+### ✅ Python-Übungen mit Prüfung
+Die Übungen sind für das **Schreiben von echtem Python-Code** gedacht. Sie
+werden im Python-Editor gelöst: Schaltfläche **🐍 Python**, dann Reiter
+**📝 Übungen**. Es sind **53**, geordnet nach dem Stoff, und jede prüft sich
+selbst.
 
-Die Schaltfläche **✔ Prüfen** führt das Programm mit festgelegten Eingaben aus
-und vergleicht die Ausgabe mit der Lösung. Wenn etwas nicht stimmt, richtet
-sich der Hinweis nach der Art des Fehlers. Erledigte Übungen werden im Ordner
-der Lernenden vermerkt.
+| Bereich | Übungen | Was geübt wird |
+|---|:---:|---|
+| Block 1: `print()` | 7 | Text und Zahlen ausgeben, Text und Zahl verbinden, Groß- und Kleinschreibung, Klammern |
+| Block 2: Variablen | 7 | Werte speichern, mit Variablen rechnen, Fläche, Einkaufsrechnung |
+| Block 3: `input()` | 6 | Eingabe über die Tastatur, `int()` und `float()`, warum `input()` Text liefert |
+| Block 4: `if` / `elif` / `else` | 9 | Bedingungen, Doppelpunkt und Einrückung, `=` und `==`, Schutz vor Division durch null |
+| Block 5: `for`-Schleife | 24 | Zählen, Countdown, Summe und Produkt, Einmaleins, gerade Zahlen, Buchstabe für Buchstabe, die größte von fünf Zahlen |
+
+#### Arten von Übungen
+
+- **Lücke füllen** (21 Übungen). Das Programm ist fertig bis auf eine oder
+  mehrere mit Unterstrichen (`___`) markierte Stellen. Die Lernenden befassen sich nur mit dem neuen
+  Befehl; der Rest des Programms dient als Beispiel. Z. B. *Das Einmaleins
+  mit 7*, *`elif` — drei Möglichkeiten*.
+- **Fehler beheben** (16 Übungen). Das Programm funktioniert nicht oder
+  rechnet falsch. Es sind Fehler, die Anfängerinnen und Anfänger wirklich
+  machen: `Print` statt `print`, ein fehlender Doppelpunkt oder eine fehlende
+  Einrückung, `=` statt `==`, eine Variable, die benutzt wird, bevor es sie
+  gibt, `input()`, das Text liefert, sodass `10 + 20` `1020` ergibt, eine
+  Summe, die in der Schleife jedes Mal auf null zurückgesetzt wird.
+- **Programm schreiben** (15 Übungen). Es gibt nur eine Beschreibung; das
+  Programm schreiben die Lernenden selbst. Z. B. *Temperaturumrechner*,
+  *Durchschnitt von drei Noten*, *Rechner mit Prüfung der Division*, *Wie
+  viele a?*, *Die größte von fünf*. Der Wortlaut der Ausgabe ist frei;
+  geprüft wird, ob die Ergebnisse stimmen.
+- **Zeilen ordnen** (1 Übung). Die Zeilen eines richtigen Programms sind
+  gemischt und ohne Einrückung. Getippt wird nichts: Die Zeilen werden
+  verschoben und eingerückt, denn in Python gehört die Einrückung zum
+  Programm. Diese Art ist an zweidimensionale Parsons-Aufgaben angelehnt.
+
+#### So läuft die Prüfung
+
+- **✔ Prüfen** führt das Programm mit festgelegten Eingaben aus — wo nötig
+  mehrmals mit verschiedenen Zahlen — und vergleicht die Ausgabe mit der
+  Ausgabe der Lösung.
+- Stimmt die Ausgabe nicht, sehen die Lernenden, mit welchen Eingaben das
+  Programm lief, und nebeneinander, **was ausgegeben werden sollte** und
+  **was das Programm ausgegeben hat**.
+- Stürzt das Programm ab, erklärt der Roboter den Fehler in einfacher
+  Sprache; darunter steht klein die originale Python-Meldung, damit man sich
+  daran gewöhnt, sie zu lesen.
+- **💡 Tipp** kommt in zwei Schritten: zuerst eine Frage, die auf die Spur
+  führt, dann ein konkreter Hinweis zu dieser Übung.
+- Neben der Erklärung des Roboters steht ein Hinweis zu genau diesem Fehler
+  in dieser Übung, z. B. was zu tun ist, wenn `int()`
+  eine Dezimalzahl bekommt.
+- **👁 Lösung** zeigt die Lösung, **↺ Neu beginnen** setzt die Übung zurück, und
+  die Pfeile führen zur vorherigen und nächsten Übung.
+- **▶ Ausführen** und **Schritt** funktionieren auch in der Übung, mit der
+  Variablentabelle.
+- Die Übungen gibt es in allen Sprachen der Oberfläche. Neben dem
+  Aufgabentext ist auch der Code selbst übersetzt: Ausgabetexte und
+  Variablennamen.
+- Die Übungen beginnen jedes Mal von vorn, wenn der Python-Editor geöffnet
+  wird, weil mehrere Gruppen am selben Computer arbeiten.
+
+![Python-Übung: Das Programm verbindet Text statt Zahlen zu addieren — erwartete und tatsächliche Ausgabe nebeneinander, mit Hinweis](slike/vjezba-de.png)
+
+#### Im Unterricht
+
+- Die Bereiche folgen der Reihenfolge des Stoffs, sodass die Übungen eines
+  Bereichs direkt nach dem jeweiligen Thema gegeben werden können.
+- Jede Übung ist kurz und in sich abgeschlossen und passt auch in einen Teil
+  einer Stunde.
+- Eine Übung beginnt und endet im selben Fenster, in dem das Programm
+  geschrieben und ausgeführt wird, ohne Wechsel in ein anderes Programm.
+- Am Beamer kann das Programm einer Übung Schritt für Schritt ausgeführt
+  werden, mit der Variablentabelle.
 
 ### 👀 Sehen, was das Programm tut
 - **Die Variablentabelle** ändert sich live während der Ausführung, mit
@@ -138,7 +201,7 @@ Lernenden, die wirklich Hilfe brauchen.
 
 **Jede und jeder im eigenen Ordner.** Die Dialoge zum Öffnen und Speichern
 beginnen in `Dokumente`, wo die Lernenden ihre eigenen Ordner haben (z. B.
-`6aG1`, `6aG2`). Programme und erledigte Übungen bleiben dort.
+`6aG1`, `6aG2`). Programme bleiben dort.
 
 **Arbeiten zu Hause.** Die Anwendung ist kostenlos und funktioniert zu Hause
 genauso wie in der Schule. Ein Programm lässt sich als `.py`-Datei exportieren
@@ -164,14 +227,14 @@ Das AppImage braucht die Berechtigung zum Ausführen: Rechtsklick →
 *Eigenschaften* → *Zugriffsrechte* → *Ausführbar*, oder im Terminal:
 
 ```bash
-chmod +x BlokBa-2.0.0.AppImage
-./BlokBa-2.0.0.AppImage
+chmod +x BlokBa-2.2.2.AppImage
+./BlokBa-2.2.2.AppImage
 ```
 
 Unter Debian und Ubuntu kann stattdessen das `.deb`-Paket installiert werden:
 
 ```bash
-sudo dpkg -i BlokBa_2.0.0_amd64.deb
+sudo dpkg -i BlokBa_2.2.2_amd64.deb
 ```
 
 Benötigt wird **Python 3.10 oder neuer**. Die meisten Distributionen bringen es
